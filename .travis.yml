@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: moU7+SbLK01h6nMyY0VwLbA/ebxN/RfHHVRMLx4Gth89IBeHEHj2A6jD87OeoKAZyeL0SqcSzf1C1ZRwhgB0KqsCT3+wkWWkXL9U4s+39cpI7zJ1gif4Zi7xo+UXXs0JidfqxWUW6r8O2DVWkkNPibpG0M6A5yLe2evIuMRcQ0NnzUZBL6FjWUMjgvFlHJBJepO1OwN38E0RC5perkuBrISYl6ZAN7CK5g8iM4HFr5FjRqDFiLIplO1r1LqqN5psbzJTfjy78sDBBF1BvBg8plDsmqPxwy31PvI3EequpQZBX7ZqA1BnL2qi0/gffbuY7abYCT3Ci6urUuJOrFeVfALxVDOO8N/vYBjm2qJgpLL/U/Dv4rBEP6bI2jyaGszWn1tsObhB19a7DW6lrsmNVLJk5daVum3Zy7E4u/qny2gUEO5Iq+czzLchNk0m+jeeP0Fb8zKmZAsyKVp8cDTFSUJDy4zi624NXDcSjgyKI/cELXQulxWd98Ul9oQ8oI4gqgDcVn28S1bUdHWAD1HCTr/BMeS1MFJvaJTOSpPoR4vupBbZemub0zKvCWhYvRmtROmqly3e+HFNb+Spkn8jxjOrtut4Kjt8xqxwLMf1miNtPWUuQVy8ZOZTtBsKXD72a9AbjzhcpJyzJREf/fAWJxvOEUIIW4GK7QHMHAOK/gk=
+  app: blooming-mountain-77185
+  on:
+    repo: jes-a/node-shopping-list-integration-tests
