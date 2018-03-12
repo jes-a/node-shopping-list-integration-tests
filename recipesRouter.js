@@ -68,7 +68,7 @@ router.put('/:id', jsonParser, (req, res) => {
     console.error(message);
     return res.status(400).send(message);
   }
-  console.log(`Updating shopping list item \`${req.params.id}\``);
+  console.log(`Updating recipes item \`${req.params.id}\``);
   const updatedItem = Recipes.update({
     id: req.params.id,
     name: req.body.name,
